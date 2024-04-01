@@ -7,8 +7,7 @@ type RouteParams = {
   meal: mealDTO;
 };
 
-interface MealDetailsProps {
-  handleGoBack: () => void;
+export interface MealDetailsProps {
   dialogVisible: boolean;
   dialogMessage: string;
   meal: mealDTO;
@@ -49,10 +48,6 @@ function useMealDetailsViewModel(): MealDetailsProps {
     }
   }
 
-  function handleGoBack() {
-    navigation.goBack();
-  }
-
   function handleNavigationRegisterMeal() {
     navigation.navigate('meal-update', { meal });
   }
@@ -62,7 +57,6 @@ function useMealDetailsViewModel(): MealDetailsProps {
     deleteMeal,
     dialogVisible,
     meal,
-    handleGoBack,
     dialogMessage,
     setDialogVisible,
     handleNavigationRegisterMeal,
