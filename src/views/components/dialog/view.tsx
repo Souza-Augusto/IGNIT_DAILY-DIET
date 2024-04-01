@@ -31,7 +31,7 @@ export function Dialog({
 }: Props) {
   return (
     <Modal visible={dialogVisible} transparent {...rest}>
-      <DialogContainer>
+      <DialogContainer testID='dialog-container'>
         <TranparentButton
           testID='header-transparent-button'
           onPress={negativeFunction}

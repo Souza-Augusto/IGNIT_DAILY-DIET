@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen:meal-details should alert fuction is called 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be Dialog is  visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be Dialog is not visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be Dialog positiveButton is  visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be deleteMeal function is called 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be negative function is called 1`] = `[Function]`;
+
+exports[`Screen:meal-details should be positive function is called 1`] = `[Function]`;
+
+exports[`Screen:meal-details should delete button render correctly 1`] = `[Function]`;
+
+exports[`Screen:meal-details should edit button render correctly 1`] = `[Function]`;
+
+exports[`Screen:meal-details should handleNavigationRegisterMeal is called 1`] = `[Function]`;
+
+exports[`Screen:meal-details should header render correctly 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal DateTimeTitle is visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal MealTypeDescription is visible with healthy is false 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal MealTypeDescription is visible with healthy is true 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal date and hour is visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal description is visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal name is visible 1`] = `[Function]`;
+
+exports[`Screen:meal-details should meal-details-container render correctly 1`] = `[Function]`;
+
+exports[`Screen:meal-details should render correctly 1`] = `[Function]`;
