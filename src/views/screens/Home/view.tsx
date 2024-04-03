@@ -53,24 +53,37 @@ export function Home() {
     return <Loading />;
   }
   return (
-    <Container>
+    <Container testID='home-container'>
       <Dialog
         negativeFunction={() => setDialogVisible(false)}
         dialogVisible={dialogVisible}
         dialogMessage={dialogTitle}
       />
       <Header.Root
-        leftElement={<Logo source={require('@assets/images/png/Logo.png')} />}
+        leftElement={
+          <Logo
+            testID='header-logo'
+            source={require('@assets/images/png/Logo.png')}
+          />
+        }
         rightElement={
-          <Profile source={require('@assets/images/png/Ellipse.png')} />
+          <Profile
+            testID='header-profile'
+            source={require('@assets/images/png/Ellipse.png')}
+          />
         }
       />
       <Card
+        testID='card'
         color={cardColor}
         activeOpacity={0.5}
         onPress={handleNavigateStatistcs}
       >
-        <ArrowUpRightIcon name='arrow-up-right' size={25} color={arrowIcon} />
+        <ArrowUpRightIcon
+          testID='arrow-up-right-icon'
+          size={25}
+          color={arrowIcon}
+        />
         <CardTitle>{percentage}</CardTitle>
         <CardDescription>das refeições dentro da sua dieta</CardDescription>
       </Card>
@@ -81,13 +94,14 @@ export function Home() {
         before={<PlusIcon />}
       />
       <SectionList
+        testID='meals-list'
         contentContainerStyle={data?.length === 0 && { flex: 1 }}
         showsVerticalScrollIndicator={false}
         sections={data}
         keyExtractor={(_, index) => index.toString()}
         renderSectionHeader={({ section: { title } }) => (
           <DateContainer>
-            <Date>{title}</Date>
+            <Date testID='list-title'>{title}</Date>
           </DateContainer>
         )}
         renderItem={({ item }) => (
