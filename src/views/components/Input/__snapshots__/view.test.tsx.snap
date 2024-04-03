@@ -1,55 +1,61 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component: Input should be render correctly 1`] = `
-<TextInput
-  placeholder="Testando..."
-  placeholderTextColor="#B9BBBC"
-  selectionColor="#DDDEDF"
-  style={
-    [
-      {
-        "borderColor": "#DDDEDF",
-        "borderRadius": 6,
-        "borderWidth": 1,
-        "color": "#1B1D1E",
-        "fontFamily": "NunitoSans_400Regular",
-        "fontSize": 16,
-        "marginLeft": 24,
-        "marginRight": 24,
-        "paddingBottom": 14,
-        "paddingLeft": 14,
-        "paddingRight": 14,
-        "paddingTop": 14,
-      },
-    ]
-  }
-  value="teste"
-/>
+[
+  <TextInput
+    placeholder="Testando..."
+    placeholderTextColor="#B9BBBC"
+    selectionColor="#DDDEDF"
+    style={
+      [
+        {
+          "borderColor": "#DDDEDF",
+          "borderRadius": 6,
+          "borderWidth": 1,
+          "color": "#1B1D1E",
+          "fontFamily": "NunitoSans_400Regular",
+          "fontSize": 16,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "paddingBottom": 14,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 14,
+        },
+      ]
+    }
+    value="teste"
+  />,
+  ";",
+]
 `;
 
 exports[`Component: Input should be rendered correctly with value 1`] = `
-<TextInput
-  placeholder="Testando..."
-  placeholderTextColor="#B9BBBC"
-  selectionColor="#DDDEDF"
-  style={
-    [
-      {
-        "borderColor": "#DDDEDF",
-        "borderRadius": 6,
-        "borderWidth": 1,
-        "color": "#1B1D1E",
-        "fontFamily": "NunitoSans_400Regular",
-        "fontSize": 16,
-        "marginLeft": 24,
-        "marginRight": 24,
-        "paddingBottom": 14,
-        "paddingLeft": 14,
-        "paddingRight": 14,
-        "paddingTop": 14,
-      },
-    ]
-  }
-  value="teste"
-/>
+[
+  <TextInput
+    placeholder="Testando..."
+    placeholderTextColor="#B9BBBC"
+    selectionColor="#DDDEDF"
+    style={
+      [
+        {
+          "borderColor": "#DDDEDF",
+          "borderRadius": 6,
+          "borderWidth": 1,
+          "color": "#1B1D1E",
+          "fontFamily": "NunitoSans_400Regular",
+          "fontSize": 16,
+          "marginLeft": 24,
+          "marginRight": 24,
+          "paddingBottom": 14,
+          "paddingLeft": 14,
+          "paddingRight": 14,
+          "paddingTop": 14,
+        },
+      ]
+    }
+    value="teste"
+  />,
+  ";",
+]
 `;

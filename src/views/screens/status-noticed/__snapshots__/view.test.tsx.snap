@@ -17,5 +17,3 @@ exports[`Screen:status-noticed view-model Should be title render correctly when 
 exports[`Screen:status-noticed view-model Should be title render correctly when healthy is true 1`] = `[Function]`;
 
 exports[`Screen:status-noticed view-model Should handleNavigateHome is called 1`] = `[Function]`;
-
-exports[`Screen:status-noticed view-model Should render correctly 1`] = `[Function]`;

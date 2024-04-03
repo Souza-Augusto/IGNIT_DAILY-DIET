@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen:home view model should be ListEmpty Component render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be card description render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be card render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be card title render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be dialog is  visible 1`] = `[Function]`;
+
+exports[`screen:home view model should be dialog is not visible 1`] = `[Function]`;
+
+exports[`screen:home view model should be dialog is visible 1`] = `[Function]`;
+
+exports[`screen:home view model should be dialog message is visible 1`] = `[Function]`;
+
+exports[`screen:home view model should be header render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be list items render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be list title render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be meal-details navigation buttOn render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be meal-details navigation buttin render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be meals list render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should be meals title render correctly 1`] = `[Function]`;
+
+exports[`screen:home view model should dialog negative function is called 1`] = `[Function]`;
+
+exports[`screen:home view model should handleNavigateMealDetails is called 1`] = `[Function]`;
+
+exports[`screen:home view model should handleNavigateResgisterMeal is called 1`] = `[Function]`;
+
+exports[`screen:home view model should handleNavigateStatistcs is called 1`] = `[Function]`;
+
+exports[`screen:home view model shuld be render correctly 1`] = `[Function]`;

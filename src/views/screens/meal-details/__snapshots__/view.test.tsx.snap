@@ -8,8 +8,6 @@ exports[`Screen:meal-details should be Dialog is not visible 1`] = `[Function]`;
 
 exports[`Screen:meal-details should be Dialog positiveButton is  visible 1`] = `[Function]`;
 
-exports[`Screen:meal-details should be deleteMeal function is called 1`] = `[Function]`;
-
 exports[`Screen:meal-details should be negative function is called 1`] = `[Function]`;
 
 exports[`Screen:meal-details should be positive function is called 1`] = `[Function]`;

@@ -8,21 +8,13 @@ exports[`component dialog should be header header-transparent-button render corr
 
 exports[`component dialog should be header header-transparent-button render correctly 2`] = `[Function]`;
 
-exports[`component dialog should be header transparent-button render correctly 1`] = `[Function]`;
-
-exports[`component dialog should be header transparent-button render correctly 2`] = `[Function]`;
-
 exports[`component dialog should dialog is not visible 1`] = `[Function]`;
 
 exports[`component dialog should negative button is not visible 1`] = `[Function]`;
 
 exports[`component dialog should negative button is visible 1`] = `[Function]`;
 
-exports[`component dialog should negative button is visible 2`] = `[Function]`;
-
 exports[`component dialog should negative function is called 1`] = `[Function]`;
-
-exports[`component dialog should negative function is called 2`] = `[Function]`;
 
 exports[`component dialog should positive button is not visible 1`] = `[Function]`;
 

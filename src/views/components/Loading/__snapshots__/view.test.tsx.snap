@@ -1,28 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`componen:loading should render correctly 1`] = `
-<View
-  style={
-    [
-      {
-        "alignItems": "center",
-        "backgroundColor": "#EFF0F0",
-        "flexBasis": 0,
-        "flexGrow": 1,
-        "flexShrink": 1,
-        "justifyContent": "center",
-      },
-    ]
-  }
->
-  <ActivityIndicator
-    color="#639339"
+[
+  <View
     style={
       [
-        {},
+        {
+          "alignItems": "center",
+          "backgroundColor": "#EFF0F0",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "justifyContent": "center",
+        },
       ]
     }
-    testID="component-loading"
-  />
-</View>
+  >
+    <ActivityIndicator
+      color="#639339"
+      style={
+        [
+          {},
+        ]
+      }
+      testID="component-loading"
+    />
+  </View>,
+  ";",
+]
 `;
