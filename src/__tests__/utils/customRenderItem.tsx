@@ -2,9 +2,14 @@ import { ReactElement, ReactNode } from 'react';
 import { RenderOptions, render } from '@testing-library/react-native';
 import { ThemeProvider } from 'styled-components/native';
 import theme from '@theme/index';
+import { NavigationContainer } from '@react-navigation/native';
 
 function Providers({ children }: { children: ReactNode }) {
-  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+  return (
+    <NavigationContainer>
+      <ThemeProvider theme={theme}>{children}</ThemeProvider>;
+    </NavigationContainer>
+  );
 }
 
 const customRender = (
