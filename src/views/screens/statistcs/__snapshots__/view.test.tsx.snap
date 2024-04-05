@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen:statiscs view should be StatistcsTitle render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be bestSequence render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be description render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be header render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be mealsMade render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be percentage render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should be render correctly 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should mealsOffDiet is visible 1`] = `[Function]`;
+
+exports[`Screen:statiscs view should mealsOnDiet is visible 1`] = `[Function]`;
+
+exports[`Screen:statiscs view shuld be render correctly 1`] = `[Function]`;
