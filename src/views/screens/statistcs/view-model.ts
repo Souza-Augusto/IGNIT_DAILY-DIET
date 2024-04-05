@@ -10,14 +10,13 @@ type RouteParams = {
   meals: listMealDTO[];
 };
 
-interface StatistcsProps {
+export interface StatistcsProps {
   mealsMade: number;
   mealsOnDiet: number;
   mealsOffDiet: number;
   bestSequence: number;
   percentage: string;
   calculateStatistcs: () => void;
-  chooseBackButtonColor: () => void;
   backButtonColor: string;
   backgroundColor: string;
 }
@@ -109,7 +108,6 @@ function useStatiticsViewModel(): StatistcsProps {
     mealsOffDiet,
     mealsOnDiet,
     percentage,
-    chooseBackButtonColor,
     backButtonColor,
     backgroundColor,
   };
