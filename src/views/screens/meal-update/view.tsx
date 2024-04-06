@@ -50,7 +50,7 @@ export function MealUpdate() {
     <Loading />;
   }
   return (
-    <Container>
+    <Container testID='container'>
       <Dialog
         negativeButtonTitle='Fechar'
         negativeFunction={() => setDialogVisible(false)}
@@ -63,7 +63,7 @@ export function MealUpdate() {
       </Header.Root>
 
       <RegisterMealContainer>
-        <ScrollView showsVerticalScrollIndicator={false}>
+        <ScrollView testID='scroll-view' showsVerticalScrollIndicator={false}>
           <InputTitle>Nome</InputTitle>
 
           <Input
