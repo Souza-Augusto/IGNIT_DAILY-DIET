@@ -22,6 +22,10 @@ interface CreateMockViewModelProps {
   backgroundColor: string;
 }
 
+beforeEach(() => {
+  jest.clearAllMocks();
+});
+
 jest.mock('./view-model');
 
 const MOCK_CALCULATE_STATISTICS = jest.fn();
