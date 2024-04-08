@@ -1,14 +1,11 @@
-import { mealDTO } from '@dtos/meal-dto';
+import { mealDTO, listMealDTO } from '@dtos/meal-dtos';
 
 export declare global {
   namespace ReactNavigation {
     interface RootParamList {
       home: undefined;
       statistics: {
-        meals: {
-          title: string;
-          data: mealDTO[];
-        }[];
+        meals: listMealDTO[];
       };
       'register-meal'?: { meal?: mealDTO };
       'meal-details': { meal: mealDTO };

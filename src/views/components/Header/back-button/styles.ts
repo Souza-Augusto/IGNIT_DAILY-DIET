@@ -11,6 +11,4 @@ export const BackIconContainer = styled.TouchableOpacity.attrs({
 
 export const BackIcon = styled(AntDesign).attrs({
   size: 30,
-})<Props>`
-  color: ${({ theme, color }) => color ?? theme.COLORS.GRAY_200};
-`;
+})<Props>``;

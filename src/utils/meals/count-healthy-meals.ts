@@ -1,11 +1,8 @@
-import { mealDTO } from '@dtos/meal-dto';
+import { listMealDTO} from '@dtos/meal-dtos';
 
-type Props = {
-  title: string;
-  data: mealDTO[];
-}[];
 
-export function CountHealthyMeals(data: Props) {
+
+export function CountHealthyMeals(data: listMealDTO[]) {
   try {
     let count = 0;
 

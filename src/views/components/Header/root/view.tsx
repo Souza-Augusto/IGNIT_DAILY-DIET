@@ -11,7 +11,7 @@ type Props = {
 
 export function Root({ leftElement, rightElement, children }: Props) {
   return (
-    <Container>
+    <Container testID='header-root'>
       {leftElement}
       {children}
       {rightElement}

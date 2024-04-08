@@ -1,6 +1,6 @@
 import { useNavigation } from '@react-navigation/native';
 
-interface BackButtonProps {
+export interface BackButtonProps {
   handleGoBack: () => void;
 }
 

@@ -4,7 +4,7 @@ type RouteParams = {
   healthy: boolean;
 };
 
-interface StatusNoticeProps {
+export interface StatusNoticeProps {
   healthy: boolean;
   handleNavigateHome: () => void;
 }

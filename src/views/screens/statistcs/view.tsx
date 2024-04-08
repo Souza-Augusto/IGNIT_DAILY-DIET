@@ -35,7 +35,7 @@ export function Statistics() {
   );
 
   return (
-    <Container background={backgroundColor}>
+    <Container testID='container' background={backgroundColor}>
       <Header.Root>
         <Header.BackButton color={backButtonColor} />
       </Header.Root>

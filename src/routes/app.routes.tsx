@@ -4,7 +4,7 @@ import { Home } from '@screens/Home/view';
 import { RegisterMeal } from '@screens/register-meal/view';
 import { Statistics } from '@screens/statistcs/view';
 import { MealDetails } from '@screens/meal-details/view';
-import { mealDTO } from '@dtos/meal-dto';
+import { mealDTO } from '@dtos/meal-dtos';
 import { StatusNoticed } from '@screens/status-noticed/view';
 import { MealUpdate } from '@screens/meal-update/view';
 

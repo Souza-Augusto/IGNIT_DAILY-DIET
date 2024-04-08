@@ -31,20 +31,29 @@ export function Dialog({
 }: Props) {
   return (
     <Modal visible={dialogVisible} transparent {...rest}>
-      <DialogContainer>
-        <TranparentButton onPress={negativeFunction} />
+      <DialogContainer testID='dialog-container'>
+        <TranparentButton
+          testID='header-transparent-button'
+          onPress={negativeFunction}
+        />
         <TitleAndButtonContainer>
           <DialogTitle>{dialogMessage}</DialogTitle>
           <DialogButtonsContainer>
             {negativeButtonTitle && (
-              <CancelButton onPress={negativeFunction}>
+              <CancelButton
+                testID='dialog-negative-button'
+                onPress={negativeFunction}
+              >
                 <CancelButtonTitle numberOfLines={1}>
                   {negativeButtonTitle}
                 </CancelButtonTitle>
               </CancelButton>
             )}
             {positiveButtonTitle && (
-              <ConfirmButton onPress={positiveFunction}>
+              <ConfirmButton
+                onPress={positiveFunction}
+                testID='dialog-positive-button'
+              >
                 <ConfirmButtonTitle numberOfLines={1}>
                   {positiveButtonTitle}
                 </ConfirmButtonTitle>
@@ -52,7 +61,10 @@ export function Dialog({
             )}
           </DialogButtonsContainer>
         </TitleAndButtonContainer>
-        <TranparentButton onPress={negativeFunction} />
+        <TranparentButton
+          testID='footer-transparent-button'
+          onPress={negativeFunction}
+        />
       </DialogContainer>
     </Modal>
   );

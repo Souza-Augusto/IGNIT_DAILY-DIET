@@ -1,12 +1,7 @@
-import { mealDTO } from '@dtos/meal-dto';
+import { mealDTO, listMealDTO } from '@dtos/meal-dtos';
 
-type Props = {
-  title: string;
-  data: mealDTO[];
-};
-
-export function SeparateByDate(data: mealDTO[]) {
-  const arrayseparate: Props[] = [];
+export function SeparateByDate(data: mealDTO[]): listMealDTO[] {
+  const arrayseparate: listMealDTO[] = [];
 
   data.forEach((obj) => {
     const data = obj.date;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component dialog should be header footer-transparent-button render correctly 1`] = `[Function]`;
+
+exports[`component dialog should be header footer-transparent-button render correctly 2`] = `[Function]`;
+
+exports[`component dialog should be header header-transparent-button render correctly 1`] = `[Function]`;
+
+exports[`component dialog should be header header-transparent-button render correctly 2`] = `[Function]`;
+
+exports[`component dialog should dialog is not visible 1`] = `[Function]`;
+
+exports[`component dialog should negative button is not visible 1`] = `[Function]`;
+
+exports[`component dialog should negative button is visible 1`] = `[Function]`;
+
+exports[`component dialog should negative function is called 1`] = `[Function]`;
+
+exports[`component dialog should positive button is not visible 1`] = `[Function]`;
+
+exports[`component dialog should positive button is visible 1`] = `[Function]`;
+
+exports[`component dialog should positive function is called 1`] = `[Function]`;
+
+exports[`component dialog should render correctly 1`] = `[Function]`;

@@ -25,13 +25,12 @@ export function MealDetails() {
     dialogVisible,
     meal,
     handleNavigationRegisterMeal,
-    handleGoBack,
     setDialogVisible,
     dialogPositiveButtonTitle,
   } = useMealDetailsViewModel();
 
   return (
-    <Container mealType={meal.healthy}>
+    <Container mealType={meal.healthy} testID='container'>
       <Dialog
         dialogVisible={dialogVisible}
         dialogMessage={dialogMessage}
@@ -45,11 +44,11 @@ export function MealDetails() {
         <Header.BackButton />
         <Header.Title title={'Refeição'} />
       </Header.Root>
-      <DetaisMealContainer>
+      <DetaisMealContainer testID='detais-meal-container'>
         <Meal>{meal.name}</Meal>
         <Description>{meal.description}</Description>
         <DateTimeTitle>Data e Hora</DateTimeTitle>
-        <DateTime>
+        <DateTime testID='date-time'>
           {meal.date} às {meal.hour}
         </DateTime>
         <MealTypeContainer>

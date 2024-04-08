@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Screen:status-noticed view-model Should be ConfirmRegister button render correctly 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be Image render correctly when healthy is false 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be Image render correctly when healthy is true 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be Noticed render correctly when healthy is false 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be Noticed render correctly when healthy is true 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be render correctly 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be title render correctly when healthy is false 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should be title render correctly when healthy is true 1`] = `[Function]`;
+
+exports[`Screen:status-noticed view-model Should handleNavigateHome is called 1`] = `[Function]`;

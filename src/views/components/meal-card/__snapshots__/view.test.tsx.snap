@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component:meal-card should be hour render correctly 1`] = `[Function]`;
+
+exports[`component:meal-card should be meal render correctly 1`] = `[Function]`;
+
+exports[`component:meal-card should be mealStatus render correctly 1`] = `[Function]`;

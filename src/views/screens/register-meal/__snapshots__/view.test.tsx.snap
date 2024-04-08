@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`screen:register-meal view should HealthyMealButton render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should OffDietButton render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should OffDietButton render correctly 2`] = `[Function]`;
+
+exports[`screen:register-meal view should be dialog is not visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should be dialog is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should be dialog message is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should be header render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should date input is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should date title render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should date title render correctly 2`] = `[Function]`;
+
+exports[`screen:register-meal view should description input is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should description input is visible 2`] = `[Function]`;
+
+exports[`screen:register-meal view should dialog negative function is called 1`] = `[Function]`;
+
+exports[`screen:register-meal view should hour input is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should input descri render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should input description render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should input title render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should meal type question render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should name input is visible 1`] = `[Function]`;
+
+exports[`screen:register-meal view should name input render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should scrollview render correctly 1`] = `[Function]`;
+
+exports[`screen:register-meal view should setDate is called 1`] = `[Function]`;
+
+exports[`screen:register-meal view should setDescription is called 1`] = `[Function]`;
+
+exports[`screen:register-meal view should setHour is called 1`] = `[Function]`;
+
+exports[`screen:register-meal view should setName is called 1`] = `[Function]`;
+
+exports[`screen:register-meal view should should serHealthy was called with false 1`] = `[Function]`;
+
+exports[`screen:register-meal view should should serHealthy was called with false 2`] = `[Function]`;
+
+exports[`screen:register-meal view should should serHealthy was called with true 1`] = `[Function]`;
+
+exports[`screen:register-meal view should should serHealthy was called with true 2`] = `[Function]`;
+
+exports[`screen:register-meal view shuld be render correctly 1`] = `[Function]`;

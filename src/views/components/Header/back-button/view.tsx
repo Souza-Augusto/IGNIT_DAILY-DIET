@@ -9,7 +9,7 @@ export function BackButton({ color }: Props) {
   const { handleGoBack } = useBackButtonViewModel();
 
   return (
-    <BackIconContainer onPress={handleGoBack}>
+    <BackIconContainer testID='back-button' onPress={handleGoBack}>
       <BackIcon name='arrowleft' color={color} />
     </BackIconContainer>
   );

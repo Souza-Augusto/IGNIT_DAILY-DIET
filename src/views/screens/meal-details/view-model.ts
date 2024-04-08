@@ -1,14 +1,13 @@
 import { useState, Dispatch } from 'react';
 import { useRoute, useNavigation } from '@react-navigation/native';
-import { mealDTO } from '@dtos/meal-dto';
+import { mealDTO } from '@dtos/meal-dtos';
 import { DeleteMeal } from '@storage/delete-meal';
 
 type RouteParams = {
   meal: mealDTO;
 };
 
-interface MealDetailsProps {
-  handleGoBack: () => void;
+export interface MealDetailsProps {
   dialogVisible: boolean;
   dialogMessage: string;
   meal: mealDTO;
@@ -49,10 +48,6 @@ function useMealDetailsViewModel(): MealDetailsProps {
     }
   }
 
-  function handleGoBack() {
-    navigation.goBack();
-  }
-
   function handleNavigationRegisterMeal() {
     navigation.navigate('meal-update', { meal });
   }
@@ -62,7 +57,6 @@ function useMealDetailsViewModel(): MealDetailsProps {
     deleteMeal,
     dialogVisible,
     meal,
-    handleGoBack,
     dialogMessage,
     setDialogVisible,
     handleNavigationRegisterMeal,

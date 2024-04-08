@@ -4,17 +4,12 @@ import { useTheme } from 'styled-components/native';
 import { CountMeals } from '@utils/meals/count-meals';
 import { CountHealthyMeals } from '@utils/meals/count-healthy-meals';
 import { SeparateByDate } from '@utils/meals/separate-by-date';
-import { mealDTO } from '@dtos/meal-dto';
+import { mealDTO, listMealDTO } from '@dtos/meal-dtos';
 import { useNavigation } from '@react-navigation/native';
 import { CountOffDietMeals } from '@utils/meals/count-off-diet-meals';
 
-type sectionListDataProps = {
-  title: string;
-  data: mealDTO[];
-};
-
-interface HomeViewModelProps {
-  data: sectionListDataProps[];
+export interface HomeViewModelProps {
+  data: listMealDTO[];
   loading: boolean;
   fetchMeals: () => void;
   dialogVisible: boolean;
@@ -31,19 +26,19 @@ interface HomeViewModelProps {
 }
 
 function useHomeViewModel(): HomeViewModelProps {
-  const [data, setData] = useState<sectionListDataProps[]>([]);
+  const { COLORS } = useTheme();
+
+  const [data, setData] = useState<listMealDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const [dialogVisible, setDialogVisible] = useState(false);
   const [dialogTitle, setDialogTitle] = useState('');
   const [percentage, setPercentage] = useState('');
-  const [cardColor, setCardColor] = useState('');
-  const [arrowIcon, setArrowIcon] = useState('');
+  const [cardColor, setCardColor] = useState<string>(COLORS.GRAY_200);
+  const [arrowIcon, setArrowIcon] = useState<string>(COLORS.GRAY_200);
 
   const { navigate } = useNavigation();
 
-  const { COLORS } = useTheme();
-
-  function calculatePercentage(data: sectionListDataProps[]) {
+  function calculatePercentage(data: listMealDTO[]) {
     const meals = CountMeals(data);
     const healthy = CountHealthyMeals(data);
     const offDiet = CountOffDietMeals(data);
@@ -82,12 +77,11 @@ function useHomeViewModel(): HomeViewModelProps {
       calculatePercentage(separateByDates);
 
       setData(separateByDates);
-
-      setLoading(false);
     } catch (error) {
-      setLoading(false);
       setDialogTitle('Não foi possível carregar as refeições.');
       setDialogVisible(true);
+    } finally {
+      setLoading(false);
     }
   }
 

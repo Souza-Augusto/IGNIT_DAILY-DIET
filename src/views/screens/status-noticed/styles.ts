@@ -24,8 +24,7 @@ export const Noticed = styled.Text`
     color: ${theme.COLORS.GRAY_100};
     font-family: ${theme.FONT_FAMILY.REGULAR};
     font-size: ${theme.FONT_SIZE.M}px;
-    margin-bottom: 40px;
-    margin-top: 8px;
+    margin: 8px 16px 40px 16px;
   `}
 `;
 export const FeaturedNoticed = styled.Text`

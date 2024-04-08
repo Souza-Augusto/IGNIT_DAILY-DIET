@@ -13,7 +13,7 @@ export function StatusNoticed() {
   const { handleNavigateHome, healthy } = useStatusNoticedViewModel();
 
   return (
-    <Container>
+    <Container testID='status-noticed-container'>
       <Title mealType={healthy}>
         {healthy ? 'Continue assim!' : 'Que pena!'}
       </Title>
@@ -31,6 +31,7 @@ export function StatusNoticed() {
         )}
       </Noticed>
       <Image
+        testID='image'
         source={
           healthy
             ? require('@assets/images/png/Illustration(1).png')

@@ -22,7 +22,7 @@ module.exports = function (api) {
             '@contexts': './src/contexts',
             '@routes': './src/routes',
             '@mappers': './src/mappers',
-            '@__mocks__': './src/__mocks__',
+            '@__tests__': './src/__tests__',
           },
         },
       ],

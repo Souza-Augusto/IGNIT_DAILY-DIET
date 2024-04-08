@@ -6,5 +6,10 @@ export type mealDTO = {
   healthy: boolean;
   description: string;
   createdAt: string;
-  updatedAt: string;
+  updatedAt?: string;
+};
+
+export type listMealDTO = {
+  title: string;
+  data: mealDTO[];
 };

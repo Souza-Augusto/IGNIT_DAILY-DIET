@@ -1,11 +1,6 @@
-import { mealDTO } from '@dtos/meal-dto';
+import { listMealDTO } from '@dtos/meal-dtos';
 
-type Props = {
-  title: string;
-  data: mealDTO[];
-}[];
-
-export function CountOffDietMeals(data: Props) {
+export function CountOffDietMeals(data: listMealDTO[]) {
   try {
     let count = 0;
 
