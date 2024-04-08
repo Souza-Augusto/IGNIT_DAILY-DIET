@@ -80,6 +80,7 @@ export function Home() {
         onPress={handleNavigateStatistcs}
       >
         <ArrowUpRightIcon
+          name='arrow-up-right'
           testID='arrow-up-right-icon'
           size={25}
           color={arrowIcon}
