@@ -83,7 +83,7 @@ Thanks to the following people who contributed to this project:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/RilsonO">
+      <a href="https://github.com/Souza-Augusto">
         <img src="https://github.com/Souza-Augusto.png" width="100px;" alt="Picture of José Augusto Souza Aguiar"/><br>
         <sub>
           <b>José Augusto Souza Aguiar</b>
